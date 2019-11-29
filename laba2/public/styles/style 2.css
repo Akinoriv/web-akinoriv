@@ -1,0 +1,124 @@
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('BebasNeueRegular.eot');
+	src: local('Bebas Neue Regular'), local('BebasNeueRegular'),
+		url('BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+		url('BebasNeueRegular.woff') format('woff'),
+		url('BebasNeueRegular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('BebasNeueBold.eot');
+	src: local('Bebas Neue Bold'), local('BebasNeueBold'),
+		url('BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+		url('BebasNeueBold.woff') format('woff'),
+		url('BebasNeueBold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('BebasNeueLight.eot');
+	src: local('Bebas Neue Light'), local('BebasNeueLight'),
+		url('BebasNeueLight.eot?#iefix') format('embedded-opentype'),
+		url('BebasNeueLight.woff') format('woff'),
+		url('BebasNeueLight.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('BebasNeue-Thin.eot');
+	src: local('Bebas Neue Thin'), local('BebasNeue-Thin'),
+		url('BebasNeue-Thin.eot?#iefix') format('embedded-opentype'),
+		url('BebasNeue-Thin.woff') format('woff'),
+		url('BebasNeue-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bebas Neue Book';
+	src: url('BebasNeueBook.eot');
+	src: local('Bebas Neue Book'), local('BebasNeueBook'),
+		url('BebasNeueBook.eot?#iefix') format('embedded-opentype'),
+		url('BebasNeueBook.woff') format('woff'),
+		url('BebasNeueBook.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body{
+	font-family: PT Sans;
+	padding-top: 150px;
+}
+
+h1{
+	position: relative;
+	font-family: 'Bebas Neue';
+	font-size: 40px; 
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 100px;
+}
+
+h2{
+	font-family:Bebas Neue;
+	font-size: 32px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 49px;
+}
+
+h3{
+	position: absolute;
+	top: 0px;
+	left: -15px;
+	font-family: Bebas Neue;
+	font-size:40px;
+	font-weight: bold;
+	color: #fe727e;
+}
+
+h4{
+	font-family: PT Sans;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.logo{
+	position: absolute;
+	top: -72px;
+	left:-172px;
+	right:0;
+	bottom:0;
+	margin-bottom: 0px;
+}
+
+.gendiv{
+	/* height:1080px; */
+	/* width:1170px; */
+	background: url(Columns.jpg);
+	background-size:100% 100%;
+	
+}
+
+.btn{
+	border-radius: 100px;
+	font-family: PT Sans;
+	font-size: 20;
+	background-color: #ec4454;
+	margin-top: 36px;
+}
+
+.block{
+	position: relative;
+	padding-left: 45px;
+	margin-bottom: 54px;
+}
