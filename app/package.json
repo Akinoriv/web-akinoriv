@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Akinoriv/web-akinoriv#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "forever": "^1.0.0"
   }
 }
