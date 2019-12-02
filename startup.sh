@@ -1,11 +1,11 @@
 #!/bin/bash
-#git clone https://github.com/Akinoriv/web-akinoriv.git && cd web-akinoriv && chmod +x startup.sh && ./startup.sh
+# git clone https://github.com/Akinoriv/web-akinoriv.git && cd web-akinoriv && chmod +x startup.sh && ./startup.sh
 cd app
-sudo apt update
+sudo apt update                 # обнавляю менеджер пакетов 
 
-yes Y | sudo apt install nodejs
-yes Y | sudo apt install npm
-npm install
-sudo npm install forever -g
-forever start index.js
+yes Y | sudo apt install nodejs # скачиваю и устанавливаю нодеджс/ соглашаюсь со всем
+yes Y | sudo apt install npm    # скачиваю и устанавливаю  менеджер ракетов 
+npm install                     # идет в файл package.json и цстанавливает все зависимости 
+sudo npm install forever -g     # скачала и установила пакет форевер для авт работы
+forever start index.js          # запустила свою страничку
  
