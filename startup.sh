@@ -1,5 +1,5 @@
 #!/bin/bash
-#git clone https://github.com/Akinoriv/web-akinoriv.git && cd web-akinoriv && ./startup.sh
+#git clone https://github.com/Akinoriv/web-akinoriv.git && cd web-akinoriv && chmod +x startup.sh && ./startup.sh
 cd app
 sudo apt update
 
