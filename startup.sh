@@ -1,6 +1,5 @@
 #!/bin/bash
-# cd ~/web-akinoriv && git pull && sudo ./startup.sh             # запуск после обновления
-# git clone https://github.com/Akinoriv/web-akinoriv.git && cd web-akinoriv && chmod +x startup.sh && sudo ./startup.sh  
+
 cd app
 sudo apt update                 # обнавляю менеджер пакетов 
 
