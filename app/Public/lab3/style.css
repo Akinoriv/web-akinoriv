@@ -1,0 +1,7 @@
+body {
+    position: relative;
+}
+
+.navbar {
+    position: fixed;
+}
