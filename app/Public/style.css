@@ -1,0 +1,22 @@
+h1 {
+    padding-top: 10px;
+    text-align: center;
+    font-family: Myriad Pro;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.bottuum {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    text-align: center;
+    width: 100%;
+}
+
+.bordur {
+    border-left-style: ridge;
+    border-right-style: ridge;
+    border-top-style: ridge;
+    border-bottom-style: ridge;
+}
