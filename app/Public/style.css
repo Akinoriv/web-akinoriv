@@ -6,18 +6,33 @@ h1 {
     margin-right: 10px;
 }
 
-.bottuum {
+.container {
+    margin: 40px auto;
+}
+
+.first-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button-box {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 200px;
     text-align: center;
     width: 100%;
-    background-color: rgb(234, 146, 213);
+    /* background-color: rgb(234, 146, 213); */
 	color: rgb(254, 203, 113);
 }
+
+.btn-danger {
+    color: black;
+    background-color: rgba(220, 20, 60, 0.489);
 }
 
-.bordur {
+.border {
+    padding: 5%;
     border-left-style: ridge;
     border-right-style: ridge;
     border-top-style: ridge;
